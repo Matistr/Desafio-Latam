@@ -1,9 +1,24 @@
-.github {
-    text-align: left;
+.github, .linkedin {
+    display: flex;
     align-items: center;
 }
 
+.github img, .linkedin img {
+    width: 20px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-left: 5px; /* Espacio entre el enlace y la imagen */
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.github {
+    justify-content: flex-start;
+}
+
 .linkedin {
-    text-align: right;
-    align-items: center;
+    justify-content: flex-end;
 }
