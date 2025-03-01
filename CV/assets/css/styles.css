@@ -1,0 +1,16 @@
+.github, .linkedin {
+    display: flex;
+    align-items: center;
+}
+
+.github img, .linkedin img {
+    width: 20px;
+    height: auto;
+    margin-left: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
