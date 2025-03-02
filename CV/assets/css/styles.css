@@ -1,4 +1,4 @@
-.github, .linkedin {
+.github, .linkedin, .inicio {
     display: flex;
     align-items: center;
 }
@@ -13,4 +13,84 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+}
+
+.enlace-github {
+    text-decoration: none;
+}
+
+.github button {
+    outline: grey;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: background-color 0.3s;
+}
+
+.github button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(1, 1, 1, 1);
+}
+
+.enlace-portafolio {
+    text-decoration: none;
+}
+
+.portafolio button {
+    outline: grey;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: background-color 0.3s;
+}
+
+.portafolio button:hover {
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 4px 10px lightblue;
+}
+
+.enlace-linkedin {
+    text-decoration: none;
+}
+
+.linkedin button {
+    outline: black;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: background-color 0.3s;
+}
+
+.linkedin button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 10px blue;
+}
+
+.enlace-inicio {
+    text-decoration: none;
+}
+
+.inicio button {
+    outline: black;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: background-color 0.3s;
+}
+
+.inicio button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 4px 10px white;
 }
