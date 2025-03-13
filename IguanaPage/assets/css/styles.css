@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.lobo {
+    width: 100%;
+    height: auto;
+}
+
+.bg-lobo {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Esto asegura que la imagen cubra todo el contenedor */
+}
+
+.info-section {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.descripcion {
+    flex: 1; /* Ocupa el espacio disponible proporcionalmente */
+    margin: 80px; /* Espaciado entre el texto y la imagen */
+}
+
+#lobo2 {
+    max-width: 500px;
+    width: 100%; /* Asegura que la imagen escale correctamente dentro de su contenedor */
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+.caracteristicas > div {
+    flex: 1; /* Cada característica ocupa el mismo espacio */
+    text-align: center;
+    padding: 10px;
+}
+
+.caracteristicas > div i {
+    font-size: 2em; /* Tamaño del icono */
+    margin-bottom: 10px;
+}
+
+.titulo-caracteristicas {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.titulo-caracteristicas, .caracteristicas {
+    background-color: grey;
+}
+
+.images {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    cursor: wait;
+}
