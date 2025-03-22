@@ -1,0 +1,88 @@
+* {
+    font-family: 'Roboto', sans-serif; /* Aplica la fuente Roboto a todos los elementos */
+}
+
+.titulo-nav {
+    color: white;
+    padding: 20px;
+}
+
+#cuppon {
+    background-color: #28A745;
+}
+
+#nav-main {
+    margin: 20px;
+    background-color: white;
+}
+
+#cama {
+    height: 9rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card-info i {
+    font-size: 1em; /* Ajusta el tamaño del ícono para que coincida con el texto */
+}
+
+.price-normal {
+    color: #707070;
+}
+
+.price-discount {
+    color: green;
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+
+.recibe-cupones {
+    background-color: #28A745;
+    color: white;
+}
+
+.recibe-cupones form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recibe-cupones button {
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-blanco, #logo-negro {
+    width: 150px;
+    height: auto;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#logo-negro {
+    display: flex;
+}
