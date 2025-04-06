@@ -1,43 +1,33 @@
-# Modulo_1 G93
+# Examen_1
 
-  **Proyecto de casas**
-  
-  - Paso 1: ``` git init ```
-  - Paso 2: ``` git branch -M main ```
-  - Paso 3: `git add -A`
-  - Paso 4: ```git commit -m "Cualquier mensaje"```
-  - Paso 5: ```git push --set-upstream origin main``` (Solo la primera vez), lurgo solo ```git push```
-  
-
-  **Pasos para clonar**
-  - Paso 1: `git clone <url> <nombre de directorio local> (https://github.com/tailwindtoolbox/Landing-Page.git) `
-  - Paso 2: `cd <nombre del directorio> (Landing-Page)`
-  - Paso 3: `code .`
-
-  Prueba Daniela Elizondo Prueba1
-  
-
-# Link Ejemplo
-
-  * [Repositorio clonado](https://github.com/NELSONLUENGAS/Landing-Page_g93)
-
-
-# Ejemplo de entrega 
+  **Proyecto final Modulo 1 Desafio Latam Fork 1 y commit =>[Repositorio clonado](https://github.com/NELSONLUENGAS/Landing-Page_g93)**  
 
 - Mi cv: 
   
-  * Link: [Pagina web](https://nelsonluengas.github.io/Modulo_1G93/)
+  * Link: [Pagina web]()
   * Image:
-  <img src="./assets/images/web.png"/>
+  <img src="./assets/images/mi-cv.jpeg"/>
 
-- Foks:
-  
-  * Link: [Fork a Repositorio de Pepito](https://github.com/NELSONLUENGAS/Landing-Page_g93)
+- Forks:
+
+  **Fork 1**
+  * Link: [Fork a Repositorio de Sebastián León](https://github.com/Matistr/CurriculumVitae)
   * Image:
-  <img src="./assets/images/Fork_1.png"/>
+  <img src="./assets/images/fork-1.png"/>
+
+  **Fork 2**
+  * Link: [Fork a Repositorio de Alfpala](https://github.com/Matistr/Dlatam-prueba)
+  * Image:
+  <img src="./assets/images/fork-2.png"/>
 
 - Commits:
    
-  * Link: [Commit Actuliza links](https://github.com/NELSONLUENGAS/Landing-Page_g93/commit/b1d2246fbc10dedea52497759820c00baf883168)
+   **Commit 1**
+  * Link: [Commit reorganizar archivo css e imagenes en carpeta assets; cambiar diseño a la imagen de perfil](https://github.com/Matistr/CurriculumVitae/commit/d5db0c3a5fd9997777c6d2f42207ecb14d780abe)
   * Image:
-  <img src="./assets/images/commit_1.png"/>
+  <img src="./assets/images/commit-1.jpeg"/>
+
+  **Commit 2**
+  * Link: [Commit Agregar ícono de LinkedIn en el pie de página y ajustar su tamaño](https://github.com/Matistr/Dlatam-prueba/commit/9ea67a3a47948b42d81f99e9bd1cbc657e2f8369)
+  * Image:
+  <img src="./assets/images/commit-2.jpeg"/>
