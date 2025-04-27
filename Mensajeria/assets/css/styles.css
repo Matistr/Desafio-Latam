@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    padding: 0; /* Nuevo */
+}
+
+.contactos {
+    width: 25%; /* Cambiar de 20% a 25% */
+    background-color: #f8f9fa;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ddd;
+}
+
+.estado-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.pfp-users {
+    width: 50px; /* Más grande */
+    height: 50px;
+    border-radius: 50%;
+}
+
+.info-estado {
+    flex: 1;
+    margin-left: 0.5rem;
+}
+
+.info-estado h1 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.info-estado p {
+    font-size: 0.8rem;
+    color: gray;
+    margin: 0;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna */
+    gap: 5px;
+}
+
+.icons i {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.nuevo-chat {
+    display: flex;
+    justify-content: center;
+    padding: 1rem; /* Agregado */
+}
+
+.new-chat {
+    background-color: #A491D2;
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 10px; /* Más redondeado */
+    cursor: pointer;
+}
+
+.lista-contactos {
+    flex: 1;
+    overflow-y: auto; /* Para scroll si hay muchos */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.contacto:hover {
+    background-color: #e9ecef;
+}
+
+.pfp-contacto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.info-contacto h2 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.info-contacto p {
+    font-size: 0.8rem;
+    color: gray;
+    margin: 0;
+}
+
+.principal {
+    flex: 1;
+    background-color: #f0f2f5; /* Fondo un poco gris */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenido-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 150px; /* Más grande */
+    height: auto;
+}
+
+.contenido-principal h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contenido-principal p {
+    font-size: 1rem;
+    margin: 0;
+    color: #333;
+}
+
+.contenido-principal .fw-bold {
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+}
