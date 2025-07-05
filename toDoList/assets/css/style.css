@@ -1,0 +1,38 @@
+body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      align-items: flex-start;
+      gap: 40px;
+      margin-top: 30px;
+    }
+    .resumen {
+      min-width: 180px;
+      background: #f5f5f5;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px #0001;
+    }
+    .tareas-section {
+      flex: 1;
+    }
+    .completada { text-decoration: line-through; color: gray; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px 10px;
+      text-align: left;
+    }
+    th {
+      background: #eee;
+    }
+    td.estado {
+      text-align: center;
+    }
+    button { margin-left: 8px; }
+    input[type="text"] { width: 60%; padding: 6px; }
